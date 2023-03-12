@@ -24,7 +24,7 @@ class _SieveOfEratosthenesState extends State<SieveOfEratosthenes> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.green[500],
+        backgroundColor: Color.fromARGB(255, 162, 182, 76),
         appBar: CustomAppbar(),
         body: Container(
           child: Column(
